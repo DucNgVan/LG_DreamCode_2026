@@ -18,7 +18,4 @@ else:
         else:
             ans_b[j] += 1
 
-    if ans_a == ans_b:
-        print('True')
-    else: 
-        print('False')
+    print(ans_a == ans_b)
